@@ -34,7 +34,7 @@ public class FirstNonRepeatingCharacter {
 	}
 
 	public static void main(String[] args) {
-		String str="xxyyzz";
+		String str="xxyyz";
 		boolean flag=false;
 		
 	Map<Character,FirstNonRepeatingCharacter> hm=new LinkedHashMap<Character,FirstNonRepeatingCharacter>();

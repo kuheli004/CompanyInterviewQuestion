@@ -1,7 +1,7 @@
 package GoldmanSachs;
 
 public class stockBuyNSell {
-	static  int price[] = {100, 180, 170, 310, 40, 535, 695};
+	static  int price[] = {100, 180, 170, 310, 40, 535, 695,20,700};
 
 
 	public static void main(String[] args) {
@@ -16,6 +16,7 @@ public class stockBuyNSell {
 		int pos=0,p=0;
 		for(int i=0;i<n-1;i+=p) {
 			int buy=price[i];
+			p=0;
 			int max_sell=Integer.MIN_VALUE;
 			for(int k=i+1;k<n;k++) {
 				p++;
@@ -24,8 +25,11 @@ public class stockBuyNSell {
 					max_sell=sell;
 					pos=k;
 				}
-				else if(sell <buy)
+				else if(sell <buy) {
+					
 					break;
+				}
+					
 				
 			}
 			System.out.println("Buy at:::"+i+" sell at::"+pos);

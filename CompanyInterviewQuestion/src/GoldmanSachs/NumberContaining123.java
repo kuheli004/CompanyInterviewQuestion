@@ -17,7 +17,7 @@ public class NumberContaining123 {
 	}
 
 	private static boolean has123(int num) {
-		String str=String.valueOf(num);
+		 String str=String.valueOf(num);
 		if((str.contains("4"))|| (str.contains("5"))||(str.contains("6"))||(str.contains("7"))
 				||(str.contains("8"))||(str.contains("9"))||(str.contains("0")))
 			return false;

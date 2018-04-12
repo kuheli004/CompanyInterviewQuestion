@@ -33,7 +33,7 @@ public class LRUCache extends LinkedHashMap<Integer, Integer> {
 
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
-		LRUCache lruCache=LRUCache.newInstance(2);
+		LRUCache lruCache=LRUCache.newInstance(3);
 		lruCache.put(1,2);
 		lruCache.put(2,	3);
 		lruCache.put(3, 4);

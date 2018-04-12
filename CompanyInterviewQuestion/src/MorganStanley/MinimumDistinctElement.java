@@ -7,7 +7,7 @@ public class MinimumDistinctElement {
 
 	public static void main(String[] args) {
 		  int arr[] = {2, 4, 1, 5, 3, 5, 1, 3};
-	        int m = 3;
+	        int m = 4;
 	 
 	        System.out.println(distinctIds(arr, arr.length, m));
 

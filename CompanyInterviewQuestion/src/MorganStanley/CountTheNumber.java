@@ -16,6 +16,8 @@ public class CountTheNumber {
 			int n=count/100;
 			int m=count%100;
 			if(count>=10 && count<600) {
+				
+				
 				total=(n*25)+5;
 				if(m>=60){
 					total+=25;
@@ -33,9 +35,9 @@ public class CountTheNumber {
 				total=(25*5)+5;
 			else if(count<10) {
 				if(count/5==1)
-					count=5;
+					total=5;
 				else
-					count=total%5;
+					total=count%5;
 			}
 
 			System.out.println(total);

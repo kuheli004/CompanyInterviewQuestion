@@ -9,8 +9,8 @@ import java.util.Date;
 public class DayOfWeek {
 
 	public static void main(String[] args) throws ParseException {
-	String today="01/01/2018";
-DateFormat sd=new SimpleDateFormat("dd/mm/yyyy");
+	String today="24/03/2018";
+DateFormat sd=new SimpleDateFormat("dd/MM/yyyy");
 Date d=sd.parse(today);
 Calendar c=Calendar.getInstance();
 c.setTime(d);
